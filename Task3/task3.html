@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>投票页布局</title>
+	<style type="text/css">
+	body,h1,p,img{padding: 0;margin: 0}
+	body{
+		font-size: 100%;
+		font-family: "Hiragino Sans GB W3";
+		color: #fff;
+		}
+	.vote{
+		width: 100%;
+		max-width: 640px;
+		margin: 0 auto;
+		background: #68cdd5;
+	}
+	.title{
+		width: 100%;
+		background: #22292c;
+		position: relative;
+	}
+	.return{
+		width:12.9%; 
+		font-size: 170%;
+		position: absolute;
+		top: 33%;
+		left: 2.5%;
+	}
+	.return img{
+		width: 20%;
+		max-width: 20px;
+	}
+	.return span {
+    	width:80%;
+    	display:block;
+    	position:absolute;
+    	top:4%;
+    	left:30%;
+	} 
+	.title h1{
+		font-size: 200%;
+		font-weight: normal;
+		text-align: center;
+		padding: 4% 0;
+	}
+	.more{
+		width: 5.7%;/*百分比宽度*/
+		position: absolute;
+		top: 40%;
+		right: 2.5%;
+	}
+	.more img{
+		width: 100%;/*设置图片100%，达到自适应*/
+		max-width: 37px;
+	}
+	/*顶部的布局完成，中部开始*/
+	.main{
+		width: 100%;
+		position: relative;
+	}
+	.back{
+		width: 8.6%;
+		padding-left: 5.3%;
+		padding-top: 3.98%;
+	}
+	.logo{
+		width: 28%;
+		display: block;
+		margin-left: 33%;
+		padding-top: 8.58%;
+	}
+	.main p{
+		width: 69%;
+		font-size: 176%;
+		margin: 0 auto;
+		padding-top: 23%;
+		line-height: 180%;
+	}
+	/*中部返回和logo及正文内容布局完成*/
+	.content{
+		width: 100%;
+		padding-top:7.5%;
+	}
+	.content p {
+    	padding-top:10%;
+    	font-size:150%;
+    	text-align:left;
+	}
+
+	.contact {
+    	width:19.53125%;
+    	float:left;
+		padding-left: 21%;
+		padding-top: 12%;
+	}
+
+	.contact img {
+		width: 100%;
+    	max-width:86px;
+    	padding-left:20%;
+	}
+
+	.ptteng {
+    	width:19.53125%;
+    	float:right;
+    	padding-right: 21%;
+		padding-top: 12%;
+
+	}
+
+	.ptteng img {
+		width: 100%;
+    	max-width:86px;
+    	padding-left:20%;
+	}
+	.block{
+		clear: both;
+		padding-bottom: 15%;
+	}
+
+	@media screen and (max-width:540px) {
+    .vote {
+        font-size:60%;
+    }/*通过判断屏幕分辨率的大小，选择执行条件，达到缩放字体的目的*/
+}
+	</style>
+</head>
+<body>
+	<div class="vote">
+		<div class="title">
+			<div class="return"><img src="images/images_1.png"><span>返回</span></div>
+			<h1>魔镜</h1>
+			<div class="more"><img src="images/images_2.png"></div>
+		</div>
+		<div class="main">
+			<img class="back" src="images/images_3.png">
+			<img class="logo" src="images/images_4.png">
+			<p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</p>
+			<div class="content">
+				<div class="contact"><img src="images/images_5.png"><p>29839300</p></div>
+				<div class="ptteng"><img src="images/images_6.png"><p>BJPtteng</p></div>
+			</div>
+		</div>
+		<div class="block"></div>
+	</div>	
+</body>
+</html>
