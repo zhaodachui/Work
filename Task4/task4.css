@@ -1,0 +1,157 @@
+body,div,h1,p,img,ul,li{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body {
+	font-size: 16px;
+    font-family:"Hiragino Sans GB W3","Hiragino Sans GB W6",Arial,sans-serif;
+	background: gray;
+}
+
+.wrap {
+	width: 100%;
+    max-width: 640px;
+    margin:0 auto;
+    color:#fff;
+    background:#29bde0;
+}
+
+.header {
+    width:100%;
+    border-bottom:1px solid #74d4eb;
+    background:#29bde0;
+    position:relative;
+}
+.header h1{
+    font-family:"Hiragino Sans GB W6", sans-serif;
+    text-align:center;
+    font-size: 34px;
+    padding-top: 38px;
+    padding-bottom: 8px;
+}
+.home {
+    width:7.96875%;
+    position:absolute;
+    top:27px;
+    left:3.125%;
+}
+.home img{
+	width: 100%;
+	max-width: 51px;
+}
+.help {
+    width:6.5625%;
+    position:absolute;
+    top:27px;
+    right:3.125%;
+}
+.help img{
+	width: 100%;
+	max-width: 40px;
+}  
+
+/*顶部布局及自适应完成,字体未完成*/
+.result{
+	width: 74%;
+	margin: 0 auto;
+}
+.result h1{
+	background: url("images/result.png") no-repeat center 160%;
+	text-align: center;
+	font-size: 300%;
+	width: 100%;
+	margin: 0 auto;
+    padding-top: 174px;
+}
+.result p{
+	font-size: 200%;
+    font-family:"Hiragino Sans GB W6", sans-serif;
+	color: #ffc865;
+    padding-top: 41px;
+    padding-bottom: 63px;
+}
+.explain{
+    width: 74%;
+    margin: 0 auto;
+}
+.explain p{
+    font-size: 26px;
+}
+.explain ul{
+    width: 100%;
+    float: left;
+}
+.explain li{
+    width: 33%;
+    font-size: 26px;
+    float: left;
+    display: block;
+    word-spacing: 
+}
+.content{
+    background: #fff;
+    border-top: 1px solid #dddddd;
+
+}
+.day{
+    width: 74%
+    margin :0 auto;
+    border-bottom: 1px solid #dddddd;
+
+}
+.day h1{
+    font-size: 30px;
+    color: #515151;
+    padding-top: 13px;
+    margin-left:12%;
+}
+.day span{
+    font-size: 20px;
+    color: #a6a6a6;
+    float: right;
+    margin: -25px 12% 0 0;
+
+}
+.day p{
+    font-size: 26px;
+    color:#a6a6a6;
+    padding: 2px 12.34%;
+}
+.footer{
+    width: 640px;
+    margin: 0 auto;
+    background:rgba(153,223,240,0.8);
+    height: 127px;
+    position: fixed;
+    bottom: 0;
+    font-size: 40px;
+}
+.again{
+    width: 271px;
+    height:86px;
+    background: #f66f6f;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.again p{
+    padding: 15px 0 0 50px;
+
+}
+.share{
+    width: 271px;
+    height:86px;
+    background: #fbb435;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.share p{
+    padding: 15px  0 0 50px;
+}
