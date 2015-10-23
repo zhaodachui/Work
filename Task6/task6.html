@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>结束投票</title>
+	<link rel="stylesheet" type="text/css" href="task6.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<img class="menu" src="images/menu.png">
+			<h1>投票</h1>
+			<img class="close" src="images/close.png">
+		</div>
+		<!-- 气泡框 -->
+		<div class="tag">
+			<audio src="victory.mp3" controls="controls" preload id="music" hidden></audio>
+    	<img id="play" src="images/play.png" alt="play" onclick="a()"/>
+			<p>发言讨论结束，请大家投票</p>
+			<em></em>
+		</div>
+		<div class="count">
+			<h2>点击得票数最多人的头像</h2>
+			<div class="main">
+				<div class="ident"><p>水民</p><span>1号</span>
+					<ul>
+						<!-- <li id="a"><a href="#"></a></li>
+						<li id="b"><a href="#"></a></li>
+						<li id="c"><a href="#"></a></li>
+						<li id="d"><a href="#"></a></li> -->
+						<li>
+							<a href="" id="a"></a>
+							<a href="" id="b"></a>
+							<a href="" id="c"></a>
+							<a href="" id="d"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="ident"><p>水民</p><span>2号</span></div>
+				<div class="ident"><p>警察</p><span>3号</span></div>
+				<div class="ident"><p>法官</p><span>4号</span></div>
+				<div class="ident"><p>狙击手</p><span>5号</span></div>
+				<div class="ident"><p>医生</p><span>6号</span></div>
+				<div class="ident"><p>杀手</p><span>7号</span></div>
+				<div class="ident"><p>水民</p><span>8号</span></div>
+				<div class="ident"><p>水民</p><span>9号</span></div>
+				<div class="ident"><p>水民</p><span>10号</span></div>
+				<div class="ident"><p>警察</p><span>11号</span></div>
+				<div class="ident"><p>杀手</p><span>12号</span></div>
+				<div class="clear"></div>
+			</div>
+			<div class="footer">
+				<div class="end"><p>投死</p></div>
+			</div>
+		</div>
+	</div>
+
+<script>   
+   function a(){
+     var audio=document.getElementById('music'); 
+     if(audio.paused){                 
+         audio.play();//audio.play();// 播放  
+     }
+     else{
+          audio.pause();// 暂停
+     	} 
+  	 }
+</script>
+
+</body>
+</html>
