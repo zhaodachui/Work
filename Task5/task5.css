@@ -68,7 +68,7 @@ li{
 #header{
 	display: none;/*将id为header的checkbox复选框隐藏*/
 }
-#header:checked ~ #main {transform: translateX(63.75%) translateY(75px);}
+#header:checked ~ #main {transform: translateX(63.75%) translateY(75px);}/*实现首页的滑动，X，Y为滑动距离*/
 .title{
 	width: 89.06%;
 	margin: 16px auto;
