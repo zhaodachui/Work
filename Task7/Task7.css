@@ -1,0 +1,478 @@
+/*---------------------样式重置---------------------------*/
+
+body,
+html,
+div,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+em,
+span,
+a {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    font-size: 62.5%;
+    width: 100%;
+    max-width: 1920px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+/*----------------------------------------轮播图的样式---------------------------------------*/
+.v_out {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.v_show {
+    width: 1920px;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+}
+
+.v_cont {
+    width: 7680px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.v_cont ul li {
+    float: left;
+}
+
+/*---圆圈---*/
+
+.v_out_p {
+    position: relative;
+    overflow: visible;
+}
+
+.circle {
+    position: absolute;
+    left: 860px;
+    top: 561px;
+}
+
+.circle li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+    background: #ccc;
+}
+
+.circle .circle-cur {
+    background: #29b078;
+    border-color: #29b078;
+}
+
+
+/*---切换---*/
+
+.prev {
+    position: absolute;
+    top: 252px;
+    left: 294px;
+}
+
+.next {
+    position: absolute;
+    top: 252px;
+    right: 294px;
+}
+
+/*---------------------头部样式-------------------------*/
+
+.header {
+    width: 100%;
+}
+
+.top {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.top p {
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #29b078;
+}
+
+.top img {
+    float: right;
+    width: 2.083%;
+    padding-top: 7px;
+}
+
+.qq,
+.weibo {
+    padding-right: 16px;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.menu {
+    width: 100%;
+    background-color: #29b078;
+}
+
+.menu ul {
+    width: 62.5%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    font-size: 1.602em;
+    display: inline-block;
+    padding: 39px 33px;
+}
+
+.menu li a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+
+/*鼠标经过时显示下边框*/
+
+.home {
+    border-bottom: 4px solid #fff;
+}
+
+
+/*---------------------开始主要部分----------------------*/
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*-------------------------介绍特色部分-----------------------*/
+
+.modal {
+    width: 100%;
+    padding-top: 164px;
+}
+
+.tips {
+    float: left;
+    width: 20.8%;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.tips p {
+    text-align: left;
+}
+
+.rocket {
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.archive {
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+
+.shape {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.tips h2 {
+    font-size: 1.8em;
+    padding-top: 31px;
+    padding-bottom: 32px;
+}
+
+.tips p {
+    font-size: 1.6em;
+    color: #b0b0b0;
+}
+
+.user1 {
+    padding-top: 64px;
+    padding-left: 55px;
+}
+
+.user2 {
+    padding-top: 32px;
+    padding-left: 57px;
+}
+
+.tips span {
+    padding-left: 12px;
+    color: #29b078;
+}
+
+.wuding {
+    text-align: left;
+    border-left: 1px dashed #dedede;
+}
+
+.wuding p {
+    padding-top: 20px;
+    padding-left: 55px;
+}
+
+
+/*------------------------以下是如何学习部分的样式------------------*/
+
+.study {
+    width: 100%;
+}
+
+.study h2 {
+    font-size: 1.8em;
+    padding: 151px 0 55px 0;
+    text-align: center;
+}
+
+.flow p {
+    font-size: 1.4em;
+    display: inline-block;
+    width: 153px;
+    padding-left: 18px;
+    vertical-align: middle;
+    color: #b0b0b0;
+}
+
+.flow span {
+    font-size: 1.8em;
+    line-height: 70px;
+    display: inline-block;
+    float: left;
+    width: 68px;
+    height: 68px;
+    text-align: center;
+    color: #29b078;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+
+.flow {
+    display: inline-block;
+    display: table-cell;
+    float: left;
+    height: 70px;
+    padding-bottom: 98px;
+    vertical-align: middle;
+}
+
+.flow4 img,
+.flow8 img {
+    display: none;
+}
+
+.flow img {
+    padding-right: 20px;
+}
+
+
+/*-------------------以下是优秀学员展示的样式-------------------------------------*/
+
+.student h2 {
+    font-size: 1.8em;
+    padding: 22px 0 73px 0;
+    text-align: center;
+}
+
+.name {
+    display: inline-block;
+    float: left;
+    width: 270px;
+    height: 369px;
+    margin-right: 40px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #a1a1a1;
+    /*显示阴影*/
+}
+
+.name img {
+    padding-top: 12px;
+}
+
+.name h3 {
+    font-size: 1.8em;
+    padding-top: 46px;
+}
+
+.name p {
+    width: 207px;
+    margin: 0 auto;
+    font-size: 1.6em;
+    padding-top: 27px;
+    color: #b0b0b0;
+    line-height: 1.6em;
+}
+
+.namelast {
+    margin-right: 0;
+}
+
+.dot {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.dot img {
+    margin: 2px;
+}
+
+
+/*-----------------------------合作企业的样式部分----------------------------------*/
+
+.partner h2 {
+    font-size: 1.8em;
+    padding: 133px 0 69px 0;
+    text-align: center;
+}
+
+.company {
+    float: left;
+    width: 237px;
+    height: 176px;
+}
+
+.company:hover {
+    box-shadow: 1px 1px 12px #666;
+}
+
+
+/*鼠标经过时显示阴影*/
+
+.alibaba {
+    background: url(images/alibaba.png) no-repeat center;
+}
+
+.jinshan {
+    background: url(images/jinshan.png) no-repeat center;
+}
+
+.huanxin {
+    background: url(images/huanxin.png) no-repeat center;
+}
+
+.ronglian {
+    background: url(images/ronglian.png) no-repeat center;
+}
+
+.qiniuyun {
+    background: url(images/qiniuyun.png) no-repeat center;
+}
+
+
+/*------------------------------------------友情链接---------------------------------------*/
+
+.link h2 {
+    font-size: 1.8em;
+    padding: 115px 0 29px 0;
+    text-align: center;
+}
+
+.link ul li {
+    font-size: 1.4em;
+    float: left;
+    width: 61px;
+    padding-right: 59px;
+    padding-bottom: 22px;
+    color: #b0b0b0;
+    list-style-type: disc;
+}
+
+
+/*-------------------------------------下面是底部的样式---------------------------------------*/
+
+.footer {
+    width: 100%;
+    height: 201px;
+    color: #fff;
+    background-color: #29b078;
+}
+
+.information {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.about,
+.pttenglink {
+    display: inline-block;
+    float: left;
+}
+
+.erweima {
+    float: right;
+    padding-right: 29px;
+    text-align: center;
+}
+
+.information p {
+    font-size: 1.6em;
+    padding-top: 37px;
+}
+
+.information span {
+    font-size: 1.4em;
+    display: inline-block;
+    padding-top: 68px;
+}
+
+.pttenglink {
+    width: 237px;
+    padding-left: 153px;
+}
+
+.pttenglink a {
+    float: left;
+    padding-top: 30px;
+    padding-right: 35px;
+}
+
+.bottom {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #fff;
+    background-color: #29b078;
+}

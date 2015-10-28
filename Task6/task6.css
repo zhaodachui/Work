@@ -1,150 +1,196 @@
-body,h1,p,div,li,ul,a{
-	margin: 0;
-	padding: 0;
-}
-ul{
-	padding-top: 26px;
-	margin-right: 5px;
-}
-li{
-	list-style-type: none;
-	display: inline-block;
-	padding-bottom: 30px;
-	margin-left: -4px;
-	width:150px;
-	background: url(images/game.png) no-repeat;
-}
-#a{
-	background-position: 0 0;
-}
-#b{
-	background-position: -35px 0;
-}
-#c{
-	background-position: -70px 0;
-}
-#d{
-	background-position: -105px 0;
+        body,
+h1,
+p,
+div,
+li,
+ul,
+a {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	font-size: 62.5%;
-	font-family: "Hiragino Sans GB W3";
-	background: gray;
+ul {
+    padding-top: 20.6349%;
+    margin-right: 3.968%;
 }
-.wrap{
-	width: 100%;
-	max-width: 640px; 
-	margin: 0 auto;
-}
-.header{
-	background: #29bde0;
-	position: relative;
-}
-.header h1{
-	font-size: 3.4em;
-	text-align: center;
-	color: #fff;
-	padding: 35px 0 15px 0;
-}
-.menu{
-	width: 100%;
-	max-width: 39px;
-	position: absolute;
-	top: 34px;
-	left:24px;
-}
-.close{
-	width: 100%;
-	max-width: 36px;
-	position: absolute;
-	top: 38px;
-	right:24px;
-}
-.tag{
-	width:100%;
-	height: 82px;
-	background: #b9e9f5;
-	font-size: 2.6em;
-	position: relative;
-}
-.tag p{
-	padding:26px 0;
-	text-indent: 1.8em;
-	color: #464646;
-}
-.tag em{
-	display:block; 
-	border-width:13px 7px; 
-	position:absolute; 
-	bottom:-26px; left:72px;
-	border-style:solid dashed dashed; 
-	border-color:#b9e9f5 transparent transparent;
-	font-size:0; line-height:0;	
-}
-.tag img{
-	float: right;
-	margin-top: 15px;
-	margin-right: 17px;
-	cursor: pointer;
-}
-.count{
-	width: 100%;
-	background: #29bde0;
-	padding: 25px 0 43px 0;
-}
-.count h2{
-	font-size: 2.4em;
-	text-indent: 72px;
-	color: #fff;
-}
-.main{
-	width: 100%;
-	padding-top: 43px;
-}
-.ident{
-	width: 126px;
-	height: 126px;
-	border:5px solid #fff;
-	float: left;
-	margin: 0 4.6875% 74px 6.4%;
-	background: #f5c97b;
-	text-align: center;
 
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 24.79%;
+    margin-left: -3.3%;
+    width: 123.97%;
+    background: url("images/game.png") no-repeat;
 }
-.ident p{
-	color: 565656;
-	font-size: 30px;
-	padding-top: 37px;
+
+#a {
+    background-position: 0 0;
+    background-size: 20%;
 }
-.ident span{
-	display: block;
-	color: #fff;
-	font-size:22.76px;
-	margin-top: 26px;
-	background: #83b09a;
+
+#b {
+    background-position: -23.33% 0;
+    background-size: 20%;
 }
-.clear{
-	clear: both;
+
+#c {
+    background-position: -46.67% 0;
+    background-size: 20%;
 }
-.footer{
-	width: 100%;
-	max-width: 640px;
-    background:#29bde0;
-    height: 190px;
+
+#d {
+    background-position: -70% 0;
+    background-size: 20%;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Hiragino Sans GB W3";
+    background: gray;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #29bde0;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 3.4em;
+    text-align: center;
+    color: #fff;
+    padding: 5.46875% 0 2.344% 0;
+}
+
+.menu {
+    width: 100%;
+    max-width: 6.9375%;
+    position: absolute;
+    top: 38.2%;
+    left: 3.75%;
+}
+
+.close {
+    width: 100%;
+    max-width: 5.625%;
+    position: absolute;
+    top: 42.7%;
+    right: 3.75%;
+}
+
+.tag {
+    width: 100%;
+    height: 12.8125%;
+    background: #b9e9f5;
+    font-size: 2.6em;
+    position: relative;
+}
+
+.tag p {
+    padding: 4.0625% 0;
+    text-indent: 1.8em;
+    color: #464646;
+}
+
+.tag em {
+    display: block;
+    border-width: 13px 7px;
+    position: absolute;
+    bottom: -31.7%;
+    left: 11.25%;
+    border-style: solid dashed dashed;
+    border-color: #b9e9f5 transparent transparent;
+    font-size: 0;
+    line-height: 0;
+}
+
+.tag img {
+    width: 100%;
+    max-width: 52px;
+    float: right;
+    margin-top: 2.34%;
+    margin-right: 2.656%;
+    cursor: pointer;
+}
+
+.count {
+    width: 100%;
+    background: #29bde0;
+    padding: 3.9% 0 6.7% 0;
+}
+
+.count h2 {
+    font-size: 2.4em;
+    text-indent: 11.25%;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    padding-top: 6.72%;
+}
+
+.ident {
+    width: 19.6875%;
+    float: left;
+    margin: 0 4.6875% 3.125% 6.4%;
+    text-align: center;
+}
+
+.ident p {
+    color: #565656;
+    font-size: 3em;
+    padding: 27.7% 3.968% 23.8%;
+    background: #f5c97b;
+    border: 5px solid #fff;
+    border-bottom: none;
+}
+
+.ident span {
+    display: block;
+    color: #fff;
+    font-size: 2.276em;
+    padding: 1px 5px;
+    background: #83b09a;
+    border: 5px solid #fff;
+    border-top: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    width: 100%;
+    max-width: 640px;
+    background: #29bde0;
     position: fixed;
     bottom: 0;
 }
-.end{
-	width: 71.875%;
-	height: 87px;
-	background: #fbb435;
-	margin: 42px auto 0;
-	font-size: 40px;
-	text-align: center;
 
+.end {
+    width: 71.875%;
+    background: #fbb435;
+    margin: 6.56% auto 7.82%;
+    font-size: 4em;
+    text-align: center;
 }
-.end p{
-	padding: 24px 0;
-	color: #fff;
+
+.end p {
+    padding: 5.217% 0;
+    color: #fff;
 }
+
+@media screen and (max-width: 580px) {
+    html {
+        font-size: 80%;
+    }
+    @media screen and (max-width: 480px) {
+        html {
+            font-size: 60%;
+        }

@@ -1,0 +1,249 @@
+/*---------------------样式重置---------------------------*/
+
+body,
+html,
+div,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+em,
+span,
+a {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    font-size: 62.5%;
+    width: 100%;
+    max-width: 1920px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1920px;
+}
+/*---------------------头部样式-------------------------*/
+
+.header {
+    width: 100%;
+}
+
+.top {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.top p {
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #29b078;
+}
+
+.top img {
+    float: right;
+    width: 2.083%;
+    padding-top: 7px;
+}
+
+.qq,
+.weibo {
+    padding-right: 16px;
+}
+
+.job-img img {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.menu {
+    width: 100%;
+    background-color: #29b078;
+}
+
+.menu ul {
+    width: 62.5%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    font-size: 1.602em;
+    display: inline-block;
+    padding: 39px 33px;
+    list-style-type: none;
+}
+
+.menu li a:hover {
+    border-bottom: 4px solid #fff;
+}/*鼠标经过时显示下边框*/
+
+.recomend {
+    border-bottom: 4px solid #fff;
+}
+/*---------------------求职页主体部分的样式-------------------*/
+.main{
+    width: 1200px;/*65.5%*/
+    margin: 0 auto;
+}
+.sub{
+    font-size: 1.6em;
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+.sub-home{
+    color: #000;
+}
+.sub-job{
+    color: #29b078;
+}
+.link-partner{
+    width: 302px;
+    float: left;
+}
+.link-partner h1{
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    border: 1px solid #e6e6e6;
+}
+.link-partner ul{
+    font-size: 1.4em;
+    padding-left: 118px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+}
+.link-partner li img{
+    padding-right: 7px;
+}
+.link-partner li{
+    padding-top: 38px;
+    color: #29b078;
+    list-style-type: none;
+}
+.link-end{
+    padding-bottom: 38px;
+}
+.link-content{
+    width: 870px;
+    margin-left: 26px;
+    border: 1px solid #e6e6e6; 
+    float: left;
+}
+.link-content p{
+    text-indent: 2em;
+    line-height: 28px;
+}
+.l-c-top{
+    height: 131px;
+    padding-left: 69px;
+    padding-right: 68px;
+    padding-top: 26px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.l-c-top-img{
+    width: 153px;
+    height: 98px;
+    margin-right: 4px;
+    float: left;
+    text-align: center;
+    display: table;
+}
+.l-c-top-img span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.l-c-top p{
+    font-size: 1.4em;
+    color: #b5b5b5;
+}
+.l-c-main{
+    padding-left: 63px;
+    padding-right: 73px;
+    padding-top: 28px;
+    color: #b5b5b5;
+
+}
+.l-c-main p{
+    font-size: 1.4em;
+    color: #b5b5b5;
+    padding-bottom: 47px;
+
+}
+/*-------------------------底部样式开始-----------------------------------*/
+.footer {
+    width: 100%;
+    height: 201px;
+    color: #fff;
+    background-color: #29b078;
+    margin-top:232px; 
+}
+
+.information {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.about,
+.pttenglink {
+    display: inline-block;
+    float: left;
+}
+
+.erweima {
+    float: right;
+    padding-right: 29px;
+    text-align: center;
+}
+
+.information p {
+    font-size: 1.6em;
+    padding-top: 37px;
+}
+
+.information span {
+    font-size: 1.4em;
+    display: inline-block;
+    padding-top: 68px;
+}
+
+.pttenglink {
+    width: 237px;
+    padding-left: 153px;
+}
+
+.pttenglink a {
+    float: left;
+    padding-top: 30px;
+    padding-right: 35px;
+}
+
+.bottom {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #fff;
+    background-color: #29b078;
+}
