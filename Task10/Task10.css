@@ -1,0 +1,672 @@
+/*---------------------样式重置---------------------------*/
+/*--------------响应式最小支持宽度为450px-----------------------*/
+body,
+html,
+div,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+p,
+em,
+span,
+a {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    font-size: 62.5%;
+    width: 100%;
+    max-width: 1920px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+/*----------------------------------------轮播图的样式---------------------------------------*/
+.v_out {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.v_show {
+    width: 100%;
+/*    max-width: 1920px;*/
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+}
+
+.v_cont {
+    width: 400%;
+    max-width: 7680px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.v_cont ul li {
+    width: 400%;
+    float: left;
+}
+/*---圆圈---*/
+
+.v_out_p {
+    position: relative;
+    overflow: visible;
+}
+
+.circle {
+    position: absolute;
+    left: 860px;
+    top: 561px;
+}
+
+.circle li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+    background: #ccc;
+}
+
+.circle .circle-cur {
+    background: #29b078;
+    border-color: #29b078;
+}
+
+
+/*---切换---*/
+
+.prev {
+    position: absolute;
+    top: 252px;
+    left: 294px;
+}
+
+.next {
+    position: absolute;
+    top: 252px;
+    right: 294px;
+}
+
+/*---------------------头部样式-------------------------*/
+
+.header {
+    width: 100%;
+}
+
+.top {
+    width: 1200px;
+    margin: 0 auto;
+}
+@media(max-width: 1220px){
+    .top{
+        width: 90%;
+    }
+}
+.top p {
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #29b078;
+}
+
+.top img {
+    float: right;
+    width: 25px;/*顶部图标大小不变*/
+    padding-top: 7px;
+}
+
+.qq,
+.weibo {
+    padding-right: 16px;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.menu {
+    width: 100%;
+    background-color: #29b078;
+}
+
+.menu ul {
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+}
+@media(max-width: 1220px){
+    .menu ul{
+        width: 90%;
+        height: 103px;
+    }
+}
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    font-size: 1.602em;
+    display: inline-block;
+    padding: 39px 33px;
+    list-style-type: none;
+}
+.menu img{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    display: none;
+}
+.menu li a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+.mbmenu{
+    width: 100%;
+    display: none;
+    position: absolute;
+}
+.mbmenu li{
+    width: 100%;
+    padding-top:15px;
+    padding-bottom: 15px; 
+    background: #1169EE;
+    text-align: center;
+    border-bottom:1px solid gray; 
+    font-size: 2em;
+}
+@media(max-width: 990px){
+    .menu ul li{
+    display: none;
+    }
+    .menu img{
+        display: inherit;
+        cursor: pointer;
+    }
+}
+/*鼠标经过时显示下边框*/
+.home {
+    border-bottom: 4px solid #fff;
+}
+
+/*---------------------开始主要部分----------------------*/
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+@media (max-width: 1220px){
+    .main{
+        width: 100%;
+    }
+}
+
+/*-------------------------介绍特色部分-----------------------*/
+
+.modal {
+    width: 100%;
+    padding-top: 164px;
+    margin: 0 auto;
+}
+@media (max-width: 990px){
+    .modal{
+        padding-top: 11px;
+    }
+}
+.tips {
+    float: left;
+    width: 250px;
+    padding:1.5%;
+    text-align: center;
+}
+@media (max-width: 1200px){
+    .modal{
+        width: 90%;
+    }
+    .tips{
+        width: 20%;
+    }
+}
+@media (max-width: 990px){
+    .tips{
+        width: 94%;
+
+    }
+}
+.tips p {
+    text-align: left;
+}
+@media (max-width: 990px){
+    .tips p{
+        text-align: center;
+}
+}
+.rocket {
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.archive {
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+
+.shape {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.tips h2 {
+    font-size: 1.8em;
+    padding-top: 31px;
+    padding-bottom: 32px;
+}
+
+.tips p {
+    font-size: 1.6em;
+    color: #b0b0b0;
+}
+
+.user1 {
+    padding-top: 64px;
+    padding-left: 55px;
+}
+
+.user2 {
+    padding-top: 32px;
+    padding-left: 57px;
+}
+
+.tips span {
+    padding-left: 12px;
+    color: #29b078;
+}
+
+.wuding {
+    text-align: left;
+    border-left: 1px dashed #dedede;
+}
+.wuding p {
+    padding-top: 20px;
+    padding-left: 55px;
+}
+@media (max-width: 990px){
+    .wuding{
+        text-align: center;
+    }
+    .user1,.user2{
+        padding-left: 0;
+    }
+    .wuding p{
+        padding-left: 0;
+    }
+}
+
+/*------------------------以下是如何学习部分的样式------------------*/
+
+.study {
+    width: 100%;
+    margin: 0 auto;
+}
+.flow {
+    display: inline-block;
+    display: table-cell;
+    float: left;
+    width: 290px;
+    height: 70px;
+    padding-bottom: 98px;
+    display: table;
+}
+.cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.study h2 {
+    font-size: 1.8em;
+    padding: 151px 0 55px 0;
+    text-align: center;
+}
+
+.flow p {
+    font-size: 1.4em;
+    display: inline-block;
+/*    width: 153px;*/
+    padding-left: 18px;
+    vertical-align: middle;
+    color: #b0b0b0;
+}
+
+.flow span {
+    font-size: 1.8em;
+    line-height: 70px;
+    display: inline-block;
+    float: left;
+    width: 68px;
+    height: 68px;
+    text-align: center;
+    color: #29b078;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+
+.flow4 img,
+.flow8 img {
+    display: none;
+}
+
+.flow img {
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+@media (max-width: 1220px){
+    .study{
+        width: 90%;
+    }
+    .flow{
+        width: 24%;
+    }
+    .flow img{
+        padding-right: 10px;
+    }
+}
+@media (max-width: 1080px){
+    .flow p{
+        width: 100px;
+        padding-left: 8px;
+    }
+    .flow img{
+        padding-right: 5px;
+    }
+}
+@media (max-width: 1000px){
+    .flow{
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .flow p{
+        width: 300px;
+        padding-left: 8px;
+    }
+    .flow img{
+        padding-right: 10px;
+    }
+    .flow4 img,.flow8 img{
+        display: inherit;
+    }
+}
+@media (max-width: 460px){
+    .flow p{
+        width: 200px;
+    }
+}
+/*-------------------以下是优秀学员展示的样式-------------------------------------*/
+.student{
+    width: 100%;
+    margin: 0 auto;
+}
+.student h2 {
+    font-size: 1.8em;
+    padding: 22px 0 73px 0;
+    text-align: center;
+}
+
+.name {
+    display: inline-block;
+    float: left;
+    width: 270px;
+    height: 369px;
+    margin-right: 3.33%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #a1a1a1;
+    /*显示阴影*/
+}
+
+.name img {
+    padding-top: 12px;
+}
+
+.name h3 {
+    font-size: 1.8em;
+    padding-top: 46px;
+}
+
+.name p {
+    width: 207px;
+    margin: 0 auto;
+    font-size: 1.6em;
+    padding-top: 27px;
+    color: #b0b0b0;
+    line-height: 1.6em;
+}
+
+.namelast {
+    margin-right: 0;
+}
+
+.dot {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.dot img {
+    margin: 2px;
+}
+@media (max-width: 1230px){
+    .student{
+        width: 90%;
+        padding-left: 6%;
+    }
+    .name{
+        width: 45%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+    .name p{
+        width: 90%;
+    }
+}
+@media (max-width: 890px){
+    .name{
+        width: 95%;
+        margin-right: 0;
+        margin-bottom: 2%;
+    }
+    .name p{
+        width: 90%;
+    }
+}
+
+/*-----------------------------合作企业的样式部分----------------------------------*/
+.partner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.partner h2 {
+    font-size: 1.8em;
+    padding: 133px 0 69px 0;
+    text-align: center;
+}
+
+.company {
+    float: left;
+    width: 237px;
+    height: 176px;
+}
+
+.company:hover {
+    box-shadow: 1px 1px 12px #666;
+}
+
+
+/*鼠标经过时显示阴影*/
+
+.alibaba {
+    background: url(images/alibaba.png) no-repeat center;
+}
+
+.jinshan {
+    background: url(images/jinshan.png) no-repeat center;
+}
+
+.huanxin {
+    background: url(images/huanxin.png) no-repeat center;
+}
+
+.ronglian {
+    background: url(images/ronglian.png) no-repeat center;
+}
+
+.qiniuyun {
+    background: url(images/qiniuyun.png) no-repeat center;
+}
+@media(max-width: 1220px){
+    .partner{
+        width: 90%;
+    }
+}
+/*------------------------------------------友情链接---------------------------------------*/
+.link{
+    width: 100%;
+    margin: 0 auto;
+}
+.link ul{
+    width: 97%;
+    padding-left: 3%;
+}
+.link h2 {
+    font-size: 1.8em;
+    padding: 115px 0 29px 0;
+    text-align: center;
+}
+
+.link ul li {
+    font-size: 1.4em;
+    float: left;
+    width: 10%;
+    padding-bottom: 22px;
+    color: #b0b0b0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+@media(max-width: 1220px){
+    .link{
+        width: 90%;
+    }
+}
+@media(max-width: 990px){
+    .link ul li{
+        width: 20%;
+    }
+}
+@media(max-width: 480px){
+        .link ul li{
+        width: 25%;
+    }
+}
+/*-------------------------------------下面是底部的样式---------------------------------------*/
+
+.footer {
+    width: 100%;
+    color: #fff;
+    background-color: #29b078;
+}
+
+.information {
+    width: 1200px;
+    margin: 0 auto;
+}
+@media(max-width: 1220px){
+    .information{
+        width: 95%;
+    }
+}
+.about,
+.pttenglink {
+    display: inline-block;
+    float: left;
+}
+
+.erweima {
+    float: right;
+    padding-right: 29px;
+    text-align: center;
+}
+.erweima img{
+    padding-bottom: 50px;
+}
+.information p {
+    font-size: 1.6em;
+    padding-top: 37px;
+}
+
+.information span {
+    font-size: 1.4em;
+    display: inline-block;
+    padding-top: 68px;
+}
+
+.pttenglink {
+    width: 237px;
+    padding-left: 153px;
+}
+
+.pttenglink a {
+    float: left;
+    padding-top: 30px;
+    padding-right: 35px;
+}
+@media(max-width: 780px){
+    .about{
+        width: 100%;
+    }
+    .pttenglink{
+        padding-left: 0;
+    }
+    .erweima{
+        float: left;
+    }
+}
+@media(max-width: 480px){
+    .pttenglink{
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+
+.bottom {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #fff;
+    background-color: #29b078;
+}
